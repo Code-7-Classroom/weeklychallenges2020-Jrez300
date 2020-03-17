@@ -1,0 +1,21 @@
+h1.title {
+  font: 12rem "Playfair Display", sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+article h2 {
+  font: 7rem "Playfair Display", sans-serif;
+  text-align: center;
+}
+
+article p {
+  font: 3rem "Open Sans", sans-serif;
+}
+
+h3 {
+  font: 9rem "Playfair Display", sans-serif;
+  text-align: center;
+}
+/*# sourceMappingURL=newspaper.css.map */

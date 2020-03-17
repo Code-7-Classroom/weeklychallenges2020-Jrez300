@@ -1,0 +1,33 @@
+
+body {
+  width: 100%;  
+   
+}
+
+.container {
+    border: 10px black solid;
+  
+}
+
+img{
+   height: 600px;
+
+}
+
+td{
+    width: 50%;
+    }
+
+.red {
+    
+    background-color: red;
+    height: 80px;
+}
+
+
+.white {
+   background-color: white;
+    height: 80px; 
+}
+
+

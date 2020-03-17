@@ -1,0 +1,44 @@
+.rainbow {
+  width: 100vw;
+}
+
+.rainbow__box {
+  background-color: black;
+  border: solid 1px white;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  height: calc(100vh - 10px);
+  margin-top: 5px;
+  width: 14.285%;
+}
+
+.rainbow .rainbow__box--red {
+  background: red;
+}
+
+.rainbow .rainbow__box--orange {
+  background: orange;
+}
+
+.rainbow .rainbow__box--yellow {
+  background: yellow;
+}
+
+.rainbow .rainbow__box--green {
+  background: green;
+}
+
+.rainbow .rainbow__box--blue {
+  background: blue;
+}
+
+.rainbow .rainbow__box--indigo {
+  background: indigo;
+}
+
+.rainbow .rainbow__box--violet {
+  background: violet;
+}
+/*# sourceMappingURL=hard.css.map */

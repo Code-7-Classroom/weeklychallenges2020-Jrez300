@@ -1,0 +1,151 @@
+
+
+.container {
+    
+    display: grid;
+    grid-template-rows: 1250px 1250px  ;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+    "content1" "content2" "content3" "content4"
+    "content5" "content6" "content7" "content8" ;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    justify-items: center;
+  
+}
+    
+
+section img {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 100%;
+  }
+
+.shoebox1 {
+      display: grid;
+      grid-area: content1;
+      height: 1250px;
+      width: 500px;
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: row1-start;
+      grid-row-end: 1;
+      
+
+
+  }
+  .shoebox2 {
+    display: grid;
+    grid-area: content2;
+    height: 1250px;
+    width: 500px;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: row1-start;
+      grid-row-end: 1;
+
+}
+.shoebox3 {
+    display: grid;
+    grid-area: content3;
+    height: 1250px;
+    width: 500px;
+      grid-column-start: 3;
+      grid-column-end: 3;
+      grid-row-start: row1-start;
+      grid-row-end: 1;
+} 
+.shoebox4 {
+    display: grid;
+    grid-area: content4;
+    height: 1250px;
+    width: 500px;
+      grid-column-start: 4;
+      grid-column-end: 4;
+      grid-row-start: row1-start;
+      grid-row-end: 1;
+}
+.shoebox5 {
+    display: grid;
+    grid-area: content5;
+    height: 1250px;
+    width: 500px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: row2-start;
+    grid-row-end: 2;
+}
+.shoebox6 {
+    display: grid;
+    grid-area: content6;
+    height: 1250px;
+      width: 500px;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: row2-start;
+      grid-row-end: 2;
+}
+.shoebox7 {
+    display: grid;
+    grid-area: content7;
+    height: 1250px;
+    width: 500px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: row2-start;
+    grid-row-end: 2;
+    
+}
+.shoebox7 img {
+    height: 322px;
+}
+.shoebox8 {
+    display: grid;
+    grid-area: content8;
+    height: 1250px;
+    width: 500px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: row2-start;
+    grid-row-end: 2;
+}
+
+  
+
+  .title {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: bold;
+      
+  }
+  .info {
+      font-size: 2rem;
+      align-items: center;
+      display: inline-block;
+  }
+
+  .price {
+      display: grid;
+      text-align: center;
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    align-self: center;
+      
+  }
+
+
+.button {
+  
+   background-color: grey;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+}

@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color:#87ceeb;
+    height: 100%;
+    width: 100%;
+}
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50%;
+    grid-template-areas: 
+    "content1" "content2" "content3";
+    justify-content: space-around;
+}
+
+.article1{
+    display: grid;
+    grid-area: content1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50%;
+    width: 600px;
+    grid-row-start: row1-start;
+      grid-row-end: 1;
+      justify-self: center;
+}
+
+.article2{
+    display: grid;
+    grid-area: content2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    height: 50%;
+    width: 600px;
+    grid-row-start: row1-start;
+      grid-row-end: 1;
+      justify-self: center;
+}
+
+
+.article3{
+    display: grid;
+    grid-area: content3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    height: 50%;
+    width: 600px;
+    grid-row-start: row1-start;
+      grid-row-end: 1;
+      justify-self: center;
+}
+
+img{
+    margin-top: 100px;
+    height: 400px;
+    width: 600px;
+}
+
+h3{
+    width: 100%;
+}
+.button-container{
+    width: 100%;
+    text-align: center;
+}
+button {
+    background-color: black; /* Green */
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 5rem;
+    align-content: center;
+    padding: 50px;
+    transition: background-color .5s;
+}
+
+button:hover {
+    background-color: #87ceeb;
+    font-size: 10em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+

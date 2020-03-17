@@ -1,0 +1,31 @@
+$title-font: 12rem 'Playfair Display', sans-serif,;
+$articleTitle-font: 7rem 'Playfair Display', sans-serif;
+$p-font: 3rem 'Open Sans', sans-serif;
+$font-color: black;
+$suscribe-font: 9rem 'Playfair Display', sans-serif;
+
+
+h1.title {
+  font: $title-font;
+  color: $font-color;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+article h2{
+    font: $articleTitle-font;
+    text-align: center;
+
+}
+
+article p {
+    font: $p-font;
+  }
+
+  h3 {
+      font: $suscribe-font;
+      text-align: center;
+  }
+
+  
