@@ -8,17 +8,16 @@ function carousel() { //creating the function that will make images changes
   var i; //variable we are using to help run function, will be defined later
   for (i = 0; i < x.length; i++) {  //variable i is defined as 0 to begin; is 'i' less than the amount of slides in "mySlides"; add 1 to variable i
 
-    x[i].style.display = "none"; //the display property is changed to none to hide all mySlides on webpage
+    x[i].style.display = "none"; //the display property is changed to none to hide all elements of mySlides
   }
 
+  slideIndex++; //slideIndex increases count by 1, initially declared as 0
 
-  slideIndex++; //increases count by 1
+  if (slideIndex > x.length)  {
+    slideIndex = 1} //if the slideIndex is larger than amount of slides in mySlides (4 slides), slideIndex turns into 1 
 
-
-  if (slideIndex > x.length)  // if the slideIndex is larger than amount of slides in mySlides
-  {slideIndex = 1} // slideIndex turns into 1 
-  x[slideIndex-1].style.display = "block"; // then x(mySlides) is reset to 0 [1-1] starting images back to the start of array [0]
-  setTimeout(carousel, 7000); // Change image every 8 seconds
+  x[slideIndex-1].style.display = "block"; // mySlides[new slideIndex - 1] display block, meaning this is the current image showing. If the statement above is true, slideIndex turns into 1, mySlide[1-1] equals 0, restarts image back at index 0.
+  setTimeout(carousel, 7000); // Change image every 7 seconds
 }
 
-carousel(); //calls the function 
+carousel(); //invokes the function 

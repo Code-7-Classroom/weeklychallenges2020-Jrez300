@@ -572,18 +572,16 @@ input[type="radio"] {  /*Hides radio buttons*/
 ol {
     list-style: none;
     padding:0px;
-        
-    
 }
-
 
   .filters{
       text-align: center;
       grid-area: filters;
     
   }
-
-.filters * {
+  
+/* all element selector */
+.filters * { 
     display: inline-block;
     text-align: center;
 }
@@ -600,7 +598,7 @@ padding: 8px 16px;
     color: #1a1a1a;
   }
 
-
+ /* displayed the filter that is checked with the given property */
 [value="All"]:checked ~ .filters [for="All"],
 [value="Yeezy 350"]:checked ~ .filters [for="Yeezy 350"],
 [value="Yeezy 700"]:checked ~ .filters [for="Yeezy 700"],
@@ -609,9 +607,13 @@ padding: 8px 16px;
     color: #BFBDB3;
 }
 
+/* When clicked the All filter, all posts that have a data-category attribute will appear: */
 [value="All"]:checked ~ .posts [data-category] {
     display: block;
 }
+
+ /* When clicking on any filter category, only the target posts will be visible: */
+  /* then checks if the radio button is clicked/checked, ~ looks for the the child that share the same parent, display none is applied to those that do NOT have the specified category */
 [value="Yeezy 350"]:checked ~ .posts .post:not([data-category*="Yeezy 350"]),
 [value="Yeezy 500"]:checked ~ .posts .post:not([data-category*="Yeezy 500"]),
 [value="Yeezy 700"]:checked ~ .posts .post:not([data-category*="Yeezy 700"]) {

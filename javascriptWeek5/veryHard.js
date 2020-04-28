@@ -19,4 +19,4 @@ for (var i = 0; i < splitString.length; i++){
 }
 
 
-console.log(occurrence("the quick brown fox jumps over the calm kitten quietly"))
+console.log(occurrence("abbath"))
