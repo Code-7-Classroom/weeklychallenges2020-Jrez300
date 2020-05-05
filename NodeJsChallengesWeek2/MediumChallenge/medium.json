@@ -1,0 +1,63 @@
+{"employees": [
+    {
+        "firstName": "Jose",
+        "employeeID": 1001,
+        "salary": 23409,
+        "departmentName": "codingA"
+    },
+    {
+        "firstName": "Julio",
+        "employeeID": 1002,
+        "salary": 32304,
+        "departmentName": "codingB"
+    },
+    {
+        "firstName": "Drake",
+        "employeeID": 1003,
+        "salary": 34009,
+        "departmentName": "codingA"
+    },
+    {
+        "firstName": "Darrel",
+        "employeeID": 1004,
+        "salary": 13405,
+        "departmentName": "codingC"
+    },
+    {
+        "firstName": "Steve",
+        "employeeID": 1005,
+        "salary": 43098,
+        "departmentName": "codingD"
+    },
+    {
+        "firstName": "Anthony",
+        "employeeID": 1006,
+        "salary": 28976,
+        "departmentName": "codingB"
+    },
+    {
+        "firstName": "Brandon",
+        "employeeID": 1007,
+        "salary": 41321,
+        "departmentName": "codingC"
+    },
+    {
+        "firstName": "Carlos",
+        "employeeID": 1008,
+        "salary": 19847,
+        "departmentName": "codingB"
+    },
+    {
+        "firstName": "John",
+        "employeeID": 1009,
+        "salary": 45094,
+        "departmentName": "codingA"
+    },
+    {
+        "firstName": "Gary",
+        "employeeID": 1010,
+        "salary": 39857,
+        "departmentName": "codingA"
+    }
+]
+}
