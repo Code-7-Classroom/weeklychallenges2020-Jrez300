@@ -57,22 +57,3 @@ export default App;
 // }
 
 
-// class BasicInfo extends Component {
-//   render() {
-//       return (
-//           <div>
-//               <ul>
-//                   {this.props.person.map(info =>(
-//                       <li>
-//                           Name: {info.name}, 
-//                           Number: {info.number}, 
-//                           DOB: {info.DOB}
-//                       </li>
-//                   ))}
-//               </ul>
-//           </div>
-//       )
-//   }
-// }
-
-// export default BasicInfo;
